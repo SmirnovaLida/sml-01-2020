@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+div {
+    display: inline-block;
+}
+
+.first {
+    background-image: url('cards2.png');
+    background-position: -130px -145px;
+    position: relative;
+    z-index: 1;
+    top: -46px;
+    left: -9px;
+    width: 154px;
+    height: 241px;
+}
+
+.first:hover {
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.second {
+    background-image: url('cards2.png');
+    background-position: -428px -579px;
+    position: relative;
+    top: -46px;
+    left: -55px;
+    width: 154px;
+    height: 192px;
+}
+
+.second:hover {
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.third {
+    background-image: url('cards2.png');
+    background-position: -283px -1349px;
+    position: relative;
+    top: -46px;
+    left: -101px;
+    width: 154px;
+    height: 200px;
+}
+
+.third:hover {
+    z-index: -1;
+    transition: 0.5s;
+}
